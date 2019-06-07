@@ -3,24 +3,23 @@
     margin: 0;
 }
 
-#body {
-    background-color: red;
-}
-
 #top {
     display: flex;
     justify-content: center;
     height: 50px;
     align-items: center;
     font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: antiquewhite;
 }
 
 #main {
     display: flex;
     justify-content: center;
-    height: 500px;
+    font-size: 40px;
+    height: 400px;
     align-items: center;
     font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: azure
 }
 
 #input {
@@ -29,4 +28,44 @@
     height: 50px;
     align-items: center;
     margin: auto;
+    background-color: antiquewhite;
+}
+
+#event {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+}
+
+#output {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* #one {
+    display: flex;
+    margin-inline-start: auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#two {
+    display: flex;
+    margin-inline-start: auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#three {
+    display: flex;
+    margin-inline-start: auto;
+    align-items: flex-start;
+    justify-content: center; */
+
+
 }
