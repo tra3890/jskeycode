@@ -40,7 +40,8 @@
 }
 
 #output {
-    display: flex;
+    display: grid;
+    flex-direction: row;
     margin: auto;
     align-items: center;
     justify-content: center;
