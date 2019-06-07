@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
-
     <link rel="stylesheet" href="main.css">
-
-
 </head>
-
-
 
 <body>
 
-    <h1>key Code Generator</h1>
-    <input type="text" onkeypress="keycode()">
-    <p>id="keycode">keycode</p>
+    <div id="top">
+        <h1>Please Enter Any Key Into The Box Below</h1>
+    </div>
 
 
-    <script src="app.js"></script>
+    <div id="main">The keyCoder returns the Unicode character code of the key that that is pressed!</div>
+
+    <input id="input" type="text" onkeydown="myInput(event)">
+    <p id="1"></p>
+    <p id="2"></p>
+    <p id="3"></p>
 
 
+
+
+
+    <script src="main.js"></script>
 </body>
+
 
 </html>
